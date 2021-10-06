@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Aula javascript</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/main.js"></script>
+    
+   
+</head>
+<body onload="load()">
+    
+    <button type="button" onclick="botão()">clique aqui</button>    
+    <h2>Sera que vai aparecer algo, 
+        embaixo desta frase, 
+        quando você clicar no botão acima?</h2>
+    <p id="agradecimento" onclick="redirecionar()"></p>
+    <p id="mousemove" onmouseover="trocar(this)"onmouseout="voltar(this)">passe o mouse aqui</p>
+    <p id="mousemove2" onmouseover="trocar(this)"onmouseout="voltar(this)">passe o mouse aqui</p>
+    <select onchange="funcaoChange(this)">
+        <option value="1">valor 1</option>
+        <option value="2">valor 2</option>
+        <option value="3">valor 3</option>
+    </select>
+    
+</body>
+</html>
